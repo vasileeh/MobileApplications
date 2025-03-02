@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Book App"
+        android:textSize="24sp"
+        android:textColor="#2C3E50"
+        android:textStyle="bold"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <Button
+        android:id="@+id/btnIntro"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Introducere"
+        android:textColor="#ffffff"
+        android:backgroundTint="#2980B9"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText"/>
+
+    <Button
+        android:id="@+id/btnChapter1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Capitolul 1"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3498DB"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnIntro"/>
+
+    <Button
+        android:id="@+id/btnChapter2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Capitolul 2"
+        android:textColor="#ffffff"
+        android:backgroundTint="#1ABC9C"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnChapter1"/>
+
+    <Button
+        android:id="@+id/btnChapter3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Capitolul 3"
+        android:textColor="#ffffff"
+        android:backgroundTint="#2ECC71"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnChapter2"/>
+
+    <Button
+        android:id="@+id/btnChapter4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Capitolul 4"
+        android:textColor="#ffffff"
+        android:backgroundTint="#F39C12"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnChapter3"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
